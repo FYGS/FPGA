@@ -1,0 +1,6 @@
+01:00:03 INFO  : Registering command handlers for SDK TCF services
+01:00:04 INFO  : Launching XSCT server: xsct -n -interactive /home/soualo/Documents/FPGA/IP_design/IP_design.sdk/temp_xsdb_launch_script.tcl
+01:00:08 INFO  : XSCT server has started successfully.
+01:00:08 INFO  : Successfully done setting XSCT server connection channel  
+01:00:08 INFO  : Successfully done setting SDK workspace  
+01:00:08 INFO  : Processing command line option -hwspec /home/soualo/Documents/FPGA/IP_design/IP_design.sdk/first_zynq_system_wrapper.hdf.

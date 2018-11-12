@@ -1,0 +1,19 @@
+General Design Flow
+I. Vivado
+
+Open Vivado and select Zedboard
+Create an new Vivado Project
+Create empty block design workspace inside the new project
+Add required IP blocks using the IP integrator tool and build Hardware Design
+Validate and save block design
+Create HDL system wrapper
+Run design Synthesis and Implementation
+Generate Bit File
+Export Hardware Design including the generated bit stream file to SDK tool
+Launch SDK
+Now the Hardware design is exported to the SDK tool. The Vivado to SDK hand-off is done internally through Vivado. We will use SDK to create a Software application that will use the customized board interface data and FPGA hardware configuration by importing the hardware design information from Vivado.
+
+II. SDK
+
+Create new application project and select default Hello World template
+Program FPGA and run application

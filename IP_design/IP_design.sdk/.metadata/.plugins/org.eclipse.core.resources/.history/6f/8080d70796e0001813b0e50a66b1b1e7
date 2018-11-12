@@ -1,0 +1,8 @@
+#include "xgpio.h"
+#include "xparameters.h"
+
+XGpio led, bouton;
+
+int my_gpio;
+
+my_gpio = XGpio_Initialize(&led, GPIO_DEVICE_ID);

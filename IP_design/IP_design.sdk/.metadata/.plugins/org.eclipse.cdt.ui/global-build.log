@@ -1,0 +1,464 @@
+01:19:53 **** Build of project LED_test_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_4/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_7/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from xtime_l.c:53:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:57:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:55:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:60:0:
+xtime_l.h:89:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_9/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_9/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpio
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_5/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Finished building libraries
+
+**** Build of configuration Debug for project LED_test ****
+
+Nothing to build for project LED_test
+01:36:14 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+Finished building: ../src/LED_test_tut_1C.c
+ 
+Building target: LED_test.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LED_test_bsp/ps7_cortexa9_0/lib -o "LED_test.elf"  ./src/LED_test_tut_1C.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../LED_test_bsp/ps7_cortexa9_0/lib/libxil.a(xil-crt0.o): In function `_start':
+/home/soualo/Documents/FPGA/IP_design/IP_design.sdk/LED_test_bsp/ps7_cortexa9_0/libsrc/standalone_v6_7/src/xil-crt0.S:142: undefined reference to `main'
+makefile:39: recipe for target 'LED_test.elf' failed
+collect2: error: ld returned 1 exit status
+make: *** [LED_test.elf] Error 1
+01:43:53 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+Finished building: ../src/LED_test_tut_1C.c
+ 
+Building target: LED_test.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LED_test_bsp/ps7_cortexa9_0/lib -o "LED_test.elf"  ./src/LED_test_tut_1C.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../LED_test_bsp/ps7_cortexa9_0/lib/libxil.a(xil-crt0.o): In function `_start':
+/home/soualo/Documents/FPGA/IP_design/IP_design.sdk/LED_test_bsp/ps7_cortexa9_0/libsrc/standalone_v6_7/src/xil-crt0.S:142: undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [LED_test.elf] Error 1
+makefile:39: recipe for target 'LED_test.elf' failed
+01:53:04 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c:8:1: warning: data definition has no type or storage class
+ my_gpio = XGpio_Initialize(&led, GPIO_DEVICE_ID);
+ ^~~~~~~
+../src/LED_test_tut_1C.c:8:1: warning: type defaults to 'int' in declaration of 'my_gpio' [-Wimplicit-int]
+../src/LED_test_tut_1C.c:8:34: error: 'GPIO_DEVICE_ID' undeclared here (not in a function); did you mean 'XPAR_GPIO_0_DEVICE_ID'?
+ my_gpio = XGpio_Initialize(&led, GPIO_DEVICE_ID);
+                                  ^~~~~~~~~~~~~~
+                                  XPAR_GPIO_0_DEVICE_ID
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+make: *** [src/LED_test_tut_1C.o] Error 1
+01:59:21 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c:8:1: warning: data definition has no type or storage class
+ my_gpio = XGpio_Initialize(&led, XPAR_AXI_GPIO_0_DEVICE_ID);
+ ^~~~~~~
+../src/LED_test_tut_1C.c:8:1: warning: type defaults to 'int' in declaration of 'my_gpio' [-Wimplicit-int]
+../src/LED_test_tut_1C.c:8:11: error: initializer element is not constant
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+ my_gpio = XGpio_Initialize(&led, XPAR_AXI_GPIO_0_DEVICE_ID);
+           ^~~~~~~~~~~~~~~~
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:00:01 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c:8:18: error: expected declaration specifiers or '...' before '&' token
+ XGpio_Initialize(&led, XPAR_AXI_GPIO_0_DEVICE_ID);
+                  ^
+In file included from ../../LED_test_bsp/ps7_cortexa9_0/include/xil_printf.h:12:0,
+                 from ../../LED_test_bsp/ps7_cortexa9_0/include/xil_io.h:65,
+                 from ../../LED_test_bsp/ps7_cortexa9_0/include/xgpio_l.h:87,
+                 from ../../LED_test_bsp/ps7_cortexa9_0/include/xgpio.h:136,
+                 from ../src/LED_test_tut_1C.c:1:
+../../LED_test_bsp/ps7_cortexa9_0/include/xparameters.h:228:35: error: expected declaration specifiers or '...' before numeric constant
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+ #define XPAR_AXI_GPIO_0_DEVICE_ID 0
+                                   ^
+../src/LED_test_tut_1C.c:8:24: note: in expansion of macro 'XPAR_AXI_GPIO_0_DEVICE_ID'
+ XGpio_Initialize(&led, XPAR_AXI_GPIO_0_DEVICE_ID);
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:06:48 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c: In function 'main':
+../src/LED_test_tut_1C.c:10:29: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  Status = XGpio_Initialize(&Gpio, GPIO_EXAMPLE_DEVICE_ID);
+                             ^~~~
+                             XGpio
+../src/LED_test_tut_1C.c:10:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/LED_test_tut_1C.c:10:35: error: 'GPIO_EXAMPLE_DEVICE_ID' undeclared (first use in this function); did you mean 'XPAR_XSDPS_0_DEVICE_ID'?
+  Status = XGpio_Initialize(&Gpio, GPIO_EXAMPLE_DEVICE_ID);
+                                   ^~~~~~~~~~~~~~~~~~~~~~
+                                   XPAR_XSDPS_0_DEVICE_ID
+../src/LED_test_tut_1C.c:17:32: error: 'LED_CHANNEL' undeclared (first use in this function)
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                ^~~~~~~~~~~
+../src/LED_test_tut_1C.c:17:46: error: 'LED' undeclared (first use in this function)
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                              ^~~
+../src/LED_test_tut_1C.c:26:27: error: 'LED_DELAY' undeclared (first use in this function)
+   for (Delay = 0; Delay < LED_DELAY; Delay++);
+                           ^~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:10:22 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c: In function 'main':
+../src/LED_test_tut_1C.c:10:29: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  Status = XGpio_Initialize(&Gpio, 0);
+                             ^~~~
+                             XGpio
+../src/LED_test_tut_1C.c:10:29: note: each undeclared identifier is reported only once for each function it appears in
+../src/LED_test_tut_1C.c:17:32: error: 'LED_CHANNEL' undeclared (first use in this function)
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                ^~~~~~~~~~~
+../src/LED_test_tut_1C.c:17:46: error: 'LED' undeclared (first use in this function)
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                              ^~~
+../src/LED_test_tut_1C.c:26:27: error: 'LED_DELAY' undeclared (first use in this function)
+   for (Delay = 0; Delay < LED_DELAY; Delay++);
+                           ^~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:11:06 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c: In function 'main':
+../src/LED_test_tut_1C.c:18:26: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                          ^~~~
+                          XGpio
+../src/LED_test_tut_1C.c:18:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/LED_test_tut_1C.c:18:32: error: 'LED_CHANNEL' undeclared (first use in this function)
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                ^~~~~~~~~~~
+../src/LED_test_tut_1C.c:18:46: error: 'LED' undeclared (first use in this function)
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+                                              ^~~
+../src/LED_test_tut_1C.c:27:27: error: 'LED_DELAY' undeclared (first use in this function)
+   for (Delay = 0; Delay < LED_DELAY; Delay++);
+                           ^~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:11:22 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c: In function 'main':
+../src/LED_test_tut_1C.c:18:31: error: 'LED_CHANNEL' undeclared (first use in this function)
+  XGpio_SetDataDirection(&led, LED_CHANNEL, ~LED);
+                               ^~~~~~~~~~~
+../src/LED_test_tut_1C.c:18:31: note: each undeclared identifier is reported only once for each function it appears in
+../src/LED_test_tut_1C.c:18:45: error: 'LED' undeclared (first use in this function)
+  XGpio_SetDataDirection(&led, LED_CHANNEL, ~LED);
+                                             ^~~
+../src/LED_test_tut_1C.c:24:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+                        ^~~~
+                        XGpio
+../src/LED_test_tut_1C.c:27:27: error: 'LED_DELAY' undeclared (first use in this function)
+   for (Delay = 0; Delay < LED_DELAY; Delay++);
+                           ^~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:13:38 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c: In function 'main':
+../src/LED_test_tut_1C.c:24:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+                        ^~~~
+                        XGpio
+../src/LED_test_tut_1C.c:24:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/LED_test_tut_1C.c:24:30: error: 'LED_CHANNEL' undeclared (first use in this function)
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+                              ^~~~~~~~~~~
+../src/LED_test_tut_1C.c:24:43: error: 'LED' undeclared (first use in this function)
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+                                           ^~~
+../src/LED_test_tut_1C.c:27:27: error: 'LED_DELAY' undeclared (first use in this function)
+   for (Delay = 0; Delay < LED_DELAY; Delay++);
+                           ^~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:14:45 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c: In function 'main':
+../src/LED_test_tut_1C.c:24:32: error: 'LED' undeclared (first use in this function)
+   XGpio_DiscreteWrite(&led, 0, LED);
+                                ^~~
+../src/LED_test_tut_1C.c:24:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/LED_test_tut_1C.c:27:27: error: 'LED_DELAY' undeclared (first use in this function)
+   for (Delay = 0; Delay < LED_DELAY; Delay++);
+                           ^~~~~~~~~
+../src/LED_test_tut_1C.c:30:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+                        ^~~~
+                        XGpio
+../src/LED_test_tut_1C.c:30:30: error: 'LED_CHANNEL' undeclared (first use in this function)
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+                              ^~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:18:04 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c: In function 'main':
+../src/LED_test_tut_1C.c:24:32: error: 'LED' undeclared (first use in this function)
+   XGpio_DiscreteWrite(&led, 0, LED);
+                                ^~~
+../src/LED_test_tut_1C.c:24:32: note: each undeclared identifier is reported only once for each function it appears in
+../src/LED_test_tut_1C.c:27:27: error: 'LED_DELAY' undeclared (first use in this function)
+   for (Delay = 0; Delay < LED_DELAY; Delay++);
+                           ^~~~~~~~~
+../src/LED_test_tut_1C.c:30:24: error: 'Gpio' undeclared (first use in this function); did you mean 'XGpio'?
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+                        ^~~~
+                        XGpio
+../src/LED_test_tut_1C.c:30:30: error: 'LED_CHANNEL' undeclared (first use in this function)
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+                              ^~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:23:04 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c:61:1: error: unknown type name 'XGpio'
+ XGpio Gpio; /* The Instance of the GPIO Driver */
+ ^~~~~
+../src/LED_test_tut_1C.c: In function 'main':
+../src/LED_test_tut_1C.c:83:11: warning: implicit declaration of function 'XGpio_Initialize' [-Wimplicit-function-declaration]
+  Status = XGpio_Initialize(&Gpio, GPIO_EXAMPLE_DEVICE_ID);
+           ^~~~~~~~~~~~~~~~
+../src/LED_test_tut_1C.c:10:33: error: 'XPAR_GPIO_0_DEVICE_ID' undeclared (first use in this function); did you mean 'GPIO_EXAMPLE_DEVICE_ID'?
+ #define GPIO_EXAMPLE_DEVICE_ID  XPAR_GPIO_0_DEVICE_ID
+                                 ^
+../src/LED_test_tut_1C.c:83:35: note: in expansion of macro 'GPIO_EXAMPLE_DEVICE_ID'
+  Status = XGpio_Initialize(&Gpio, GPIO_EXAMPLE_DEVICE_ID);
+                                   ^~~~~~~~~~~~~~~~~~~~~~
+../src/LED_test_tut_1C.c:10:33: note: each undeclared identifier is reported only once for each function it appears in
+ #define GPIO_EXAMPLE_DEVICE_ID  XPAR_GPIO_0_DEVICE_ID
+                                 ^
+../src/LED_test_tut_1C.c:83:35: note: in expansion of macro 'GPIO_EXAMPLE_DEVICE_ID'
+  Status = XGpio_Initialize(&Gpio, GPIO_EXAMPLE_DEVICE_ID);
+                                   ^~~~~~~~~~~~~~~~~~~~~~
+../src/LED_test_tut_1C.c:84:16: error: 'XST_SUCCESS' undeclared (first use in this function)
+  if (Status != XST_SUCCESS) {
+                ^~~~~~~~~~~
+../src/LED_test_tut_1C.c:85:3: warning: implicit declaration of function 'xil_printf'; did you mean '__builtin_printf'? [-Wimplicit-function-declaration]
+   xil_printf("Gpio Initialization Failed\r\n");
+   ^~~~~~~~~~
+   __builtin_printf
+../src/LED_test_tut_1C.c:86:10: error: 'XST_FAILURE' undeclared (first use in this function)
+   return XST_FAILURE;
+          ^~~~~~~~~~~
+../src/LED_test_tut_1C.c:90:2: warning: implicit declaration of function 'XGpio_SetDataDirection' [-Wimplicit-function-declaration]
+  XGpio_SetDataDirection(&Gpio, LED_CHANNEL, ~LED);
+  ^~~~~~~~~~~~~~~~~~~~~~
+../src/LED_test_tut_1C.c:96:3: warning: implicit declaration of function 'XGpio_DiscreteWrite' [-Wimplicit-function-declaration]
+   XGpio_DiscreteWrite(&Gpio, LED_CHANNEL, LED);
+   ^~~~~~~~~~~~~~~~~~~
+../src/LED_test_tut_1C.c:102:3: warning: implicit declaration of function 'XGpio_DiscreteClear' [-Wimplicit-function-declaration]
+   XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+   ^~~~~~~~~~~~~~~~~~~
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+make: *** [src/LED_test_tut_1C.o] Error 1
+02:24:01 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+../src/LED_test_tut_1C.c:1:39: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'Files'
+ ***************************** Include Files *********************************/
+                                       ^~~~~
+../src/LED_test_tut_1C.c:1:39: error: unknown type name 'Files'
+In file included from /home/soualo/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/stdint.h:14:0,
+                 from /home/soualo/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/7.2.1/include/stdint.h:9,
+                 from ../../LED_test_bsp/ps7_cortexa9_0/include/xil_types.h:59,
+                 from ../../LED_test_bsp/ps7_cortexa9_0/include/xgpio.h:133,
+                 from ../src/LED_test_tut_1C.c:4:
+/home/soualo/SDK/2018.2/gnu/aarch32/lin/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include/sys/_stdint.h:19:9: error: unknown type name '__int8_t'
+ typedef __int8_t int8_t ;
+         ^~~~~~~~
+make: *** [src/LED_test_tut_1C.o] Error 1
+src/subdir.mk:21: recipe for target 'src/LED_test_tut_1C.o' failed
+02:24:08 **** Auto Build of configuration Debug for project LED_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/LED_test_tut_1C.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/LED_test_tut_1C.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../LED_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/LED_test_tut_1C.d" -MT"src/LED_test_tut_1C.o" -o "src/LED_test_tut_1C.o" "../src/LED_test_tut_1C.c"
+Finished building: ../src/LED_test_tut_1C.c
+ 
+Building target: LED_test.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../LED_test_bsp/ps7_cortexa9_0/lib -o "LED_test.elf"  ./src/LED_test_tut_1C.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: LED_test.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size LED_test.elf  |tee "LED_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23712	   1168	  22600	  47480	   b978	LED_test.elf
+Finished building: LED_test.elf.size
+ 

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov  5 00:45:28 2018
+# Process ID: 23279
+# Current directory: /home/soualo/Documents/FPGA/IP_design/IP_design.runs/first_zynq_system_axi_gpio_0_0_synth_1
+# Command line: vivado -log first_zynq_system_axi_gpio_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source first_zynq_system_axi_gpio_0_0.tcl
+# Log file: /home/soualo/Documents/FPGA/IP_design/IP_design.runs/first_zynq_system_axi_gpio_0_0_synth_1/first_zynq_system_axi_gpio_0_0.vds
+# Journal file: /home/soualo/Documents/FPGA/IP_design/IP_design.runs/first_zynq_system_axi_gpio_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source first_zynq_system_axi_gpio_0_0.tcl -notrace

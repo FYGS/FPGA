@@ -1,0 +1,38 @@
+#include "xgpio.h"
+#include "xparameters.h"
+
+int main(void)
+{
+	XGpio led;
+	int Status;
+	volatile int Delay;
+
+	/* Initialize the GPIO driver */
+	Status = XGpio_Initialize(&led, 0);
+	if (Status != XST_SUCCESS) {
+		xil_printf("Gpio Initialization Failed\r\n");
+		return XST_FAILURE;
+	}
+
+	/* Set the direction for all signals as inputs except the LED output */
+	XGpio_SetDataDirection(&led, 1, 0x00);
+
+	/* Loop forever blinking the LED */
+
+	while (1) {
+		/* Set the LED to High */
+		XGpio_DiscreteWrite(&led, 0, LED);
+
+		/* Wait a small amount of time so the LED is visible */
+		for (Delay = 0; Delay < LED_DELAY; Delay++);
+
+		/* Clear the LED bit */
+		XGpio_DiscreteClear(&Gpio, LED_CHANNEL, LED);
+
+		/* Wait a small amount of time so the LED is visible */
+		for (Delay = 0; Delay < LED_DELAY; Delay++);
+	}
+
+	xil_printf("Successfully ran Gpio Example\r\n");
+	return XST_SUCCESS;
+}
